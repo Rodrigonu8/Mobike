@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: #eee;
+}
+
+#top {
+	margin: 0 auto;
+	background-color: white;
+	height: 55px;
+}
+
+#logo {
+	width:300px;
+	height: 50px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#contenedor {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.elemento-formulario {
+    margin-top: 10px;
+}
+
+form{
+	margin: auto;
+    margin-top: 20px;
+	border-bottom: 4px solid darkorange;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+
+h1{
+	display: block;
+	color: white;
+	background-color: #f07800;
+	padding: 8px 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+form label {
+    position: relative;
+    top: 5px;
+    width: 600px;
+    float: left;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 220px;
+    height: 20px;
+}
+
+form select {
+    width: 220px;
+    height: 20px;
+}
+
+p{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#seccion-submit{
+    margin-right: 20px;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+#mensajeErrorCampos{
+    color: red;
+    font-size: 110% !important;
+    
+}
+
+#mensajeExito{
+    color: lightgreen;
+    font-size: 110%;
+}
+
+#header{
+    background-color: rgb(238, 236, 234);
+    padding: 1% 1% 1% 1%;
+}
+
+.registro{
+	font-family: 'Montserrat', sans-serif;
+}

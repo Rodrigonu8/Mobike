@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobike - Buscar Bicicletas</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="container-fluid">
+            <div class="jumbotron" id="header">
+                <a href="../Template/admin.html"><img id="logo_mobike" src="../img/Logotipo.png" alt="logo"></a>
+            </div>
+            <br>
+
+            <div class="inicio_admin">
+                <h2>Buscar Bicicletas</h2>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id Bicicleta</th>
+                                    <th>Modelo</th>
+                                    <th>Pórtico</th>
+                                    <th>Comuna</th>
+                                    <th>Modificar Bicicleta</th>
+                                    <th>Eliminar Bicicleta</th>
+                                </tr>
+                                <tr>
+                                    <td>02501</td>
+                                    <td>Trek 3500</td>
+                                    <td>10</td>
+                                    <td>La Reina</td>
+                                    <td><button type="button" id="modificar" class="btn btn-warning">Modificar</button>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02502</td>
+                                    <td>Trek 3500</td>
+                                    <td>10</td>
+                                    <td>La Reina</td>
+                                    <td><button type="button" id="modificar" class="btn btn-warning">Modificar</button>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02503</td>
+                                    <td>Trek 3500</td>
+                                    <td>10</td>
+                                    <td>La Reina</td>
+                                    <td><button href="../Template/index_admin_mod_bici.html" type="button"
+                                            id="modificar" class="btn btn-warning">Modificar</button></td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02504</td>
+                                    <td>Trek 3500</td>
+                                    <td>10</td>
+                                    <td>La Reina</td>
+                                    <td><button href="../Template/index_admin_mod_bici.html" type="button"
+                                            id="modificar" class="btn btn-warning">Modificar</button></td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02505</td>
+                                    <td>Trek 3500</td>
+                                    <td>10</td>
+                                    <td>La Reina</td>
+                                    <td><button href="../Template/index_admin_mod_bici.html" type="button"
+                                            id="modificar" class="btn btn-warning">Modificar</button></td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-usuarios">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed-bottom row align-items-center justify-content-around" id="footer">
+                <div class="col-sm-5">
+                    <p>Copyright &copy; 2020 &mdash; MoBike</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

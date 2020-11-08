@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobike - Agregar bicicleta</title>
+    <link rel="stylesheet" href="../css/add_bici.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="jumbotron" id="header">
+            <a href="../Template/admin.html"><img id="logo_mobike" src="../img/Logotipo.png" alt="logo" ></a>
+        </div>
+            <br>
+
+            <div class="container inicio_admin">
+                <h2>Agregar Bicicletas</h2>
+                <br>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="idbici">ID Bicicleta</label>
+                        <input type="text" class="form-control" id="idbici" placeholder="Ingrese ID de bicicleta">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="modelo">Modelo</label>
+                        <input type="text" class="form-control" id="modelo" placeholder="Ingrese modelo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="portico">Pórtico</label>
+                        <input type="text" class="form-control" id="portico" placeholder="Ingrese pórtico">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comuna">Comuna</label>
+                        <input type="text" class="form-control" id="comuna" placeholder="Ingrese comuna">
+                    </div>
+
+                    <div class="form-group m-0">
+                        <button id="boton" type="submit" class="btn btn-primary btn-block">
+                            Agregar Bicicleta
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="fixed-bottom row align-items-center justify-content-around" id="footer">
+                <div class="col-sm-5">
+                    <p>Copyright &copy; 2020 &mdash; MoBike</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

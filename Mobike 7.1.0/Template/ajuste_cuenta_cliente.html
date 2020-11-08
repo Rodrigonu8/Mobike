@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobike - Inicio</title>
+    <link rel="stylesheet" href="../css/ajuste_cliente.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="jumbotron" id="header">
+        <a href="../Template/cliente.html"><img id="logo_mobike" src="../img/Logotipo.png" alt="logo"></a>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+
+        <h4>Modificacion de datos</h4>
+        <form method="POST" class="my-login-validation" novalidate="">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input id="name" type="text" class="form-control" name="name" required autofocus>
+                <div class="invalid-feedback">
+                    ¿Cuál es tu nombre?
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input id="email" type="email" class="form-control" name="email" required>
+                <div class="invalid-feedback">
+                    Correo electrónico no valido
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input id="password" type="password" class="form-control" name="password" required data-eye>
+                <div class="invalid-feedback">
+                    Contraseña no valida
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Selecciona una comuna</label>
+                <select id="disabledSelect" aria-placeholder="Selecciona una opcion" class="form-control">
+                    <option>La Reina</option>
+                    <option>Ñuñoa</option>
+                    <option>Providencia</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="credito">Número de tarjeta</label>
+                <input id="credito" type="credito" class="form-control" name="credito" required>
+                <div class="invalid-feedback">
+                    Tarjeta de crédito no valida
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="form-group col-md-3 col-sm-3 col-xs-3">
+                    <label for="mes">Mes</label>
+                    <input id="mes" type="mes" class="form-control" name="mes" required>
+                </div>
+                <div class="form-group col-md-3 col-sm-3 col-xs-3">
+                    <label for="año">Año</label>
+                    <input id="año" type="año" class="form-control" name="año" required>
+                </div>
+                <div class="form-group col-md-3 col-sm-3 col-xs-3">
+                    <label for="ccv">CCV</label>
+                    <input id="ccv" type="ccv" class="form-control" name="ccv" required>
+                </div>
+                <br>
+            </div>
+
+            <div class="form-group m-0">
+                <button id="boton" type="submit" class="btn btn-primary btn-block">
+                    Guardar
+                </button>
+            </div>
+            <br>
+            <div class="form-group m-0">
+                <a id="boton" type="button" href="ajuste_cuenta_cliente.html" class="btn btn-primary btn-block">
+                    Cancelar
+                </a>
+            </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="row  justify-content-center fixed-bottom" id="footer">
+        <div class="col-sm-5">
+            <p>Copyright &copy; 2020 &mdash; MoBike</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

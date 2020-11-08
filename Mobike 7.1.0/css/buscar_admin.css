@@ -1,0 +1,12 @@
+#header{
+    background-color: rgb(238, 236, 234);
+    padding: 2% 1% 2% 1%;
+}
+
+.jumbotron{
+    display:flex;
+    justify-content: center;
+}
+.listado{
+    text-align: center;
+}

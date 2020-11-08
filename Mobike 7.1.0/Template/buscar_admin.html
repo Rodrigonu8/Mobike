@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobike - Inicio</title>
+    <link rel="stylesheet" href="../css/buscar_admin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="container-fluid">
+            <div class="jumbotron" id="header">
+                <a href="../Template/admin.html"><img id="logo_mobike" src="../img/Logotipo.png" alt="logo"></a>
+            </div>
+            <br>
+            <div class="listado">
+                <h2>Listado de Clientes</h2>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Rut</th>
+                                    <th>Nombre</th>
+                                    <th>Teléfono</th>
+                                    <th>Email</th>
+                                    <th>Comuna</th>
+                                    <th>Modificar Cliente</th>
+                                    <th>Eliminar Cliente</th>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>Sebastian Hormazabal</td>
+                                    <td>998811882</td>
+                                    <td>seba.hormazabal@alumnos.duoc.cl</td>
+                                    <td>La Reina</td>
+                                    <td><a type="button" id="modificar" class="btn btn-warning" href="">Modificar</a>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456799</td>
+                                    <td>Oliver Young</td>
+                                    <td>111222342</td>
+                                    <td>o.young@alumnos.duoc.cl</td>
+                                    <td>La Reina</td>
+                                    <td><a type="button" id="modificar" class="btn btn-warning" href="">Modificar</a>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>113156799</td>
+                                    <td>Katherine Charpentier</td>
+                                    <td>221222342</td>
+                                    <td>ka.charpentier@alumnos.duoc.cl</td>
+                                    <td>La Reina</td>
+                                    <td><a type="button" id="modificar" class="btn btn-warning" href="">Modificar</a>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>987654321</td>
+                                    <td>Vidal Martinez</td>
+                                    <td>888881111</td>
+                                    <td>v.martinez@alumnos.duoc.cl</td>
+                                    <td>La Reina</td>
+                                    <td><a type="button" id="modificar" class="btn btn-warning" href="">Modificar</a>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>192837465</td>
+                                    <td>Rodrigo Nuñez</td>
+                                    <td>567894321</td>
+                                    <td>rod.nunezv@alumnos.duoc.cl</td>
+                                    <td>La Reina</td>
+                                    <td><a type="button" id="modificar" class="btn btn-warning" href="">Modificar</a>
+                                    </td>
+                                    <td><button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-usuarios">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-around fixed-bottom" id="footer">
+                <div class="col-sm-5">
+                    <p>Copyright &copy; 2020 &mdash; MoBike</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

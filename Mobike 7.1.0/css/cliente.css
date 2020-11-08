@@ -1,0 +1,26 @@
+#boton{
+    width: 30%;
+    height: 150px;
+    background-color: #F07800;
+    border-color: #F07800;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+#header{
+    background-color: rgb(238, 236, 234);
+    padding: 2% 1% 2% 1%;
+}
+.jumbotron{
+    display:flex;
+    justify-content: center;
+
+}
+h1 {
+    text-align: center;
+}
